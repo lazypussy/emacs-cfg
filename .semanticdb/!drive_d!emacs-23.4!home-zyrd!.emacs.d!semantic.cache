@@ -1,0 +1,69 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables (list 
+   (semanticdb-table ".si-like-cfg.el"
+    :major-mode 'emacs-lisp-mode
+    :tags 
+        '( ("global-set-key" code nil nil [153 194])
+            ("ibuffer" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [199 246])
+            ("load" code nil nil [328 344])
+            ("desktop-load-default" code nil nil [346 368])
+            ("desktop-read" code nil nil [370 384])
+            ("add-to-list" code nil nil [466 511])
+            ("session" include nil nil [512 530])
+            ("add-hook" code nil nil [543 590])
+            ("add-to-list" code nil nil [750 804])
+            ("cedet" include nil nil [805 821])
+            ("semantic-load-enable-excessive-code-helpers" code nil nil [1050 1095])
+            ("global-semantic-tag-folding-mode" code nil nil [1195 1231])
+            ("my-cedet-hook" function nil nil [1249 1548])
+            ("add-hook" code nil nil [1549 1594])
+            ("my-c-mode-cedet-hook" function nil nil [1629 1766])
+            ("add-hook" code nil nil [1767 1819])
+            ("my-indent-or-complete" function nil nil [1830 1972])
+            ("global-set-key" code nil nil [1975 2030])
+            ("senator-try-expand-semantic" function (:prototype-flag t) nil [2033 2082])
+            ("setq" code nil nil [2083 2625])
+            ("add-to-list" code nil nil [2707 2753])
+            ("ecb" include nil nil [2754 2768])
+            ("setq" code nil nil [2800 2855])
+            ("global-set-key" code nil nil [2867 2907])
+            ("global-set-key" code nil nil [2908 2950])
+            ("global-set-key" code nil nil [2951 2987])
+            ("global-set-key" code nil nil [2988 3028])
+            ("define-key" code nil nil [3044 3104])
+            ("define-key" code nil nil [3105 3165])
+            ("define-key" code nil nil [3182 3246])
+            ("define-key" code nil nil [3247 3307])
+            ("define-key" code nil nil [3308 3368])
+            ("define-key" code nil nil [3369 3429])
+            ("define-key" code nil nil [3443 3508])
+            ("add-hook" code nil nil [3691 3752])
+            ("define-key" code nil nil [3761 3830])
+            ("define-key" code nil nil [3831 3902])
+            ("define-key" code nil nil [3903 3967])
+            ("define-key" code nil nil [3968 4038])
+            ("define-key" code nil nil [4039 4122])
+            ("define-key" code nil nil [4123 4179])
+            ("define-key" code nil nil [4180 4239])
+            ("define-key" code nil nil [4240 4297])
+            ("define-key" code nil nil [4298 4357])
+            ("define-key" code nil nil [4358 4415])
+            ("define-key" code nil nil [4416 4478])
+            ("define-key" code nil nil [4479 4548])
+            ("setq" code nil nil [4573 4611]))          
+    :file ".si-like-cfg.el"
+    :pointmax 4613
+    :fsize 4878
+    :lastmodtime '(20562 60127)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_d!emacs-23.4!home-zyrd!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )

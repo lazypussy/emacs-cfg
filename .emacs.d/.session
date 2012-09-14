@@ -1,0 +1,12 @@
+;;; Automatically generated on Fri Sep 14 18:05:00 2012
+;;; Invoked by zhangyunrui@ZHANGYUNRUI using 23.4.1
+(setq-default kill-ring '(""))
+(setq-default session-file-alist '(("d:/Program_winGreenTool/emacs-24.1/site-lisp/doxymacs-1.8.0/no-autoconf/doxymacs.el" 31826 nil 1 nil nil 31826 (overwrite-mode)) ("g:/AnyWhere/AnyWhere/build/startkit2012/projects/img_startkit2012_keil_arm_v1.0/user_code/main.c" 2375 nil 1 nil nil 2375 (overwrite-mode))))
+(setq-default file-name-history '("d:/Program_winGreenTool/emacs-24.1/site-lisp/doxymacs-1.8.0/no-autoconf/doxymacs.el" "g:/AnyWhere/AnyWhere/build/startkit2012/projects/img_startkit2012_keil_arm_v1.0/user_code/test_gpio.c" "g:/AnyWhere/AnyWhere/build/startkit2012/projects/img_startkit2012_keil_arm_v1.0/user_code/main.c" "~/.emacs.bmk" "g:/AnyWhere/AnyWhere/build/startkit2012/projects/img_startkit2012_keil_arm_v1.0/user_code/main.h" "~/.emacs"))
+(setq-default bookmark-history '("aw-main"))
+(setq-default buffer-name-history '("main.c" "*eshell*"))
+(setq-default command-history '((switch-to-buffer "main.c") (bookmark-jump "aw-main") (kill-buffer "*eshell*") (eshell nil) (kill-buffer "main.c")))
+(setq-default extended-command-history '("desktop-save" "eshell"))
+(setq-default serial-name-history '("COM1"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
+(setq-default yes-or-no-p-history '("yes"))

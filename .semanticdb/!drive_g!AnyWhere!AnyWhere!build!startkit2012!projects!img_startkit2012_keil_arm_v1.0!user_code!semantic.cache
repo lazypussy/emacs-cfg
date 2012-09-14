@@ -1,0 +1,134 @@
+;; Object user_code/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "user_code/"
+  :tables (list 
+   (semanticdb-table "main.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("main.h" include nil nil [1152 1169])
+            ("anywhere.h" include nil nil [1170 1191])
+            ("service/aw_do.h" include nil nil [1192 1218])
+            ("service/aw_delay.h" include nil nil [1219 1248])
+            ("BEEP" variable (:constant-flag t) nil [1258 1262])
+            ("LED0" variable (:constant-flag t) nil [1275 1279])
+            ("aw_demo_beep" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1327 1332]))                  
+                :type "void")
+                nil [1309 1434])
+            ("aw_demo_blink_led" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1483 1488]))                  
+                :type "void")
+                nil [1460 1590])
+            ("aw_demo_flow_led" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1637 1642]))                  
+                :type "void")
+                nil [1615 1852])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2243 2248]))                  
+                :type "int")
+                nil [2233 2578]))          
+    :file "main.c"
+    :pointmax 2805
+    :fsize 2827
+    :lastmodtime '(20550 65425)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("LED0" . ((symbol "0UL" 1280 . 1283)))
+          ("BEEP" . ((symbol "8UL" 1263 . 1266)))
+          )
+
+    )
+   (semanticdb-table "main.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("__MAIN_H" variable (:constant-flag t) nil [936 944])
+            ("stdint.h" include nil nil [1111 1130])
+            ("std_def.h" include nil nil [1131 1151])
+            ("__USE_DEBUG" variable (:constant-flag t) nil [1418 1429]))          
+    :file "main.h"
+    :pointmax 1909
+    :fsize 1987
+    :lastmodtime '(20550 65425)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__MAIN_H")
+          ("__USE_DEBUG" . ((number "0" 1438 . 1439)))
+          )
+
+    )
+   (semanticdb-table "test_gpio.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("anywhere.h" include nil nil [3 24])
+            ("std_def.h" include nil nil [26 46])
+            ("gpio.h" include nil nil [47 64])
+            ("service/aw_delay.h" include nil nil [65 94])
+            ("my_flag" variable (:type "int") nil [96 112])
+            ("DEBUG_LED" variable (:constant-flag t) nil [122 131])
+            ("DEBUG_LED_ON" variable (:constant-flag t) nil [167 179])
+            ("LED1" variable (:constant-flag t) nil [217 221])
+            ("LED2" variable (:constant-flag t) nil [240 244])
+            ("LED3" variable (:constant-flag t) nil [260 264])
+            ("LED4" variable (:constant-flag t) nil [280 284])
+            ("KEY1" variable (:constant-flag t) nil [301 305])
+            ("LED_ON" variable (:constant-flag t) nil [613 619])
+            ("LED_OFF" variable (:constant-flag t) nil [655 662])
+            ("IS_PRESS_KEY" variable (:constant-flag t) nil [697 709])
+            ("test_pin_set" function
+               (:arguments 
+                  ( ("pin_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [754 770]))                  
+                :type "void")
+                nil [736 966])
+            ("test_port_set" function
+               (:arguments 
+                  ( ("port_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [986 1003]))                  
+                :type "void")
+                nil [967 1239])
+            ("test_dis_key_use_led" function
+               (:arguments 
+                  ( ("key" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1267 1280])
+                    ("led" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1281 1294]))                  
+                :type "void")
+                nil [1241 1400])
+            ("my_callback" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1419 1429]))                  
+                :type "void")
+                nil [1402 1603])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1631 1636]))                  
+                :type "int")
+                nil [1622 1890]))          
+    :file "test_gpio.c"
+    :pointmax 3505
+    :fsize 3514
+    :lastmodtime '(20550 65425)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("KEY1" . ((symbol "PIO3_3" 306 . 312)))
+          ("DEBUG_LED_ON" (spp-arg-list nil 179 . 181) . ((symbol "aw_gpio_set" 182 . 193) (semantic-list "(DEBUG_LED, 0)" 193 . 207)))
+          ("LED1" . ((symbol "DEBUG_LED" 222 . 231)))
+          ("LED_ON" (spp-arg-list ("id") 619 . 623) . ((symbol "aw_gpio_set" 626 . 637) (semantic-list "((id), 0)" 637 . 646)))
+          ("LED2" . ((symbol "PIO0_2" 245 . 251)))
+          ("IS_PRESS_KEY" (spp-arg-list ("id") 709 . 713) . 
+              ((punctuation "!" 716 . 717) (symbol "aw_gpio_get" 717 . 728) (semantic-list "((id))" 728 . 734)))
+          ("LED3" . ((symbol "PIO0_3" 265 . 271)))
+          ("LED4" . ((symbol "PIO0_6" 285 . 291)))
+          ("LED_OFF" (spp-arg-list ("id") 662 . 666) . ((symbol "aw_gpio_set" 668 . 679) (semantic-list "((id), 1)" 679 . 688)))
+          ("DEBUG_LED" . ((symbol "PIO0_1" 132 . 138)))
+          )
+
+    )
+   )
+  :file "!drive_g!AnyWhere!AnyWhere!build!startkit2012!projects!img_startkit2012_keil_arm_v1.0!user_code!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )

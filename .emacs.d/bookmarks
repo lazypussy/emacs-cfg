@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+((".emacs"
+ (filename . "~/.emacs")
+ (front-context-string . "(custom-set-vari")
+ (rear-context-string)
+ (position . 1))
+("t.c"
+ (filename . "~/my_new.c")
+ (front-context-string . "int c;\n  int b =")
+ (rear-context-string . "in(int arg)\n{\n  ")
+ (position . 58))
+("t1"
+ (filename . "~/test.txt")
+ (front-context-string . "\nAssuming you wa")
+ (rear-context-string . "and is invalid.\n")
+ (position . 3741))
+)

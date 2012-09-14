@@ -1,0 +1,18 @@
+;; Object home-zyrd/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "home-zyrd/"
+  :tables (list 
+   (semanticdb-table ".emacs"
+    :major-mode 'emacs-lisp-mode
+    :tags nil
+    :file ".emacs"
+    :pointmax 1141
+    :fsize 1246
+    :lastmodtime '(20562 60884)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_d!emacs-23.4!home-zyrd!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )

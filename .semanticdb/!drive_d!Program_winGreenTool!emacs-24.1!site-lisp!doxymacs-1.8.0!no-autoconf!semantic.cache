@@ -1,0 +1,185 @@
+;; Object no-autoconf/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "no-autoconf/"
+  :tables (list 
+   (semanticdb-table "doxymacs.el"
+    :major-mode 'emacs-lisp-mode
+    :tags 
+        '( ("doxymacs" package nil nil [10368 10387])
+            ("custom" include nil nil [10389 10406])
+            ("xml-parse" include nil nil [10407 10427])
+            ("url" include nil nil [10428 10442])
+            ("tempo" include nil nil [10443 10459])
+            ("doxymacs-version" variable
+               (:constant-flag t
+                :default-value "1.8.0")
+                nil [10461 10524])
+            ("doxymacs-version" function (:user-visible-flag t) nil [10526 10688])
+            ("doxymacs" customgroup (:user-visible-flag t) nil [10691 10802])
+            ("doxymacs-doxygen-dirs" variable nil nil [10804 11834])
+            ("doxymacs-doxygen-style" variable (:default-value "JavaDoc") nil [11836 12261])
+            ("doxymacs-command-character" variable nil nil [12263 12569])
+            ("doxymacs-use-external-xml-parser" variable (:user-visible-flag t) nil [12571 12963])
+            ("doxymacs-external-xml-parser-executable" variable (:user-visible-flag t) nil [12965 13106])
+            ("doxymacs-browse-url-function" variable
+               (:user-visible-flag t
+                :default-value (quote browse-url))
+                nil [13108 13357])
+            ("doxymacs-blank-multiline-comment-template" variable nil nil [13359 13720])
+            ("doxymacs-blank-singleline-comment-template" variable nil nil [13722 14085])
+            ("doxymacs-file-comment-template" variable nil nil [14087 14426])
+            ("doxymacs-function-comment-template" variable nil nil [14428 15262])
+            ("doxymacs-void-types" variable (:default-value "void") nil [15264 15458])
+            ("doxymacs-member-comment-start" variable nil nil [15460 15725])
+            ("doxymacs-member-comment-end" variable nil nil [15727 16058])
+            ("doxymacs-group-comment-start" variable nil nil [16060 16371])
+            ("doxymacs-group-comment-end" variable nil nil [16373 16680])
+            ("doxymacs-tags-buffers" variable nil nil [16716 16966])
+            ("doxymacs-completion-lists" variable nil nil [17062 17556])
+            ("doxymacs-current-completion-list" variable nil nil [17558 17640])
+            ("doxymacs-completion-buffer" variable (:default-value "*Completions*") nil [17642 17750])
+            ("doxymacs-mode" variable nil nil [17785 17855])
+            ("make-variable-buffer-local" code nil nil [17857 17900])
+            ("doxymacs-mode" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [17902 19024])
+            ("doxymacs-mode-map" variable (:default-value (make-sparse-keymap)) nil [19037 19120])
+            ("define-key" code nil nil [19122 19180])
+            ("define-key" code nil nil [19181 19244])
+            ("define-key" code nil nil [19246 19321])
+            ("define-key" code nil nil [19322 19393])
+            ("define-key" code nil nil [19394 19476])
+            ("define-key" code nil nil [19477 19560])
+            ("define-key" code nil nil [19561 19634])
+            ("define-key" code nil nil [19635 19711])
+            ("or" code nil nil [19729 19853])
+            ("or" code nil nil [19855 20008])
+            ("doxymacs-doxygen-keywords" variable
+               (:constant-flag t
+                :default-value (list (list (concat "\\([@\\\\]\\(brief\\|li\\|\\(end\\)?code\\|sa" "\\|note\\|\\(end\\)?verbatim\\|return\\|arg\\|fn" "\\|hideinitializer\\|showinitializer" "\\|\\$" "\\|internal\\|nosubgrouping\\|author\\|date\\|endif" "\\|invariant\\|post\\|pre\\|remarks\\|since\\|test\\|version" "\\|\\(end\\)?htmlonly\\|\\(end\\)?latexonly\\|f\\$\\|file" "\\|\\(end\\)?xmlonly\\|\\(end\\)?manonly\\|property" "\\|mainpage\\|name\\|overload\\|typedef\\|deprecated\\|par" "\\|addindex\\|line\\|skip\\|skipline\\|until\\|see" "\\|endlink\\|callgraph\\|endcond\\|else\\)\\)\\>") (quote (0 font-lock-keyword-face prepend))) (list "\\([@\\\\]\\(attention\\|warning\\|todo\\|bug\\)\\)\\>" (quote (0 font-lock-warning-face prepend))) (list (concat "\\([@\\\\]\\(param\\(?:\\s-*\\[\\(?:in\\|out\\|in,out\\)\\]\\)?" "\\|a\\|namespace\\|relates\\(also\\)?" "\\|var\\|def\\)\\)\\s-+\\(\\sw+\\)") (quote (1 font-lock-keyword-face prepend)) (quote (4 font-lock-variable-name-face prepend))) (list (concat "\\([@\\\\]\\(class\\|struct\\|union\\|exception\\|enum" "\\|throw\\|interface\\|protocol\\)\\)\\s-+\\(\\(\\sw\\|:\\)+\\)") (quote (1 font-lock-keyword-face prepend)) (quote (3 font-lock-type-face prepend))) (list "\\([@\\\\]retval\\)\\s-+\\([^ 	
+]+\\)" (quote (1 font-lock-keyword-face prepend)) (quote (2 font-lock-function-name-face prepend))) (list "\\([@\\\\]b\\)\\s-+\\([^ 	
+]+\\)" (quote (1 font-lock-keyword-face prepend)) (quote (2 (quote bold) prepend))) (list "\\([@\\\\][cp]\\)\\s-+\\([^ 	
+]+\\)" (quote (1 font-lock-keyword-face prepend)) (quote (2 (quote underline) prepend))) (list "\\([@\\\\]e\\(m\\)?\\)\\s-+\\([^ 	
+]+\\)" (quote (1 font-lock-keyword-face prepend)) (quote (3 (quote italic) prepend))) (list "\\([@\\\\]ingroup\\)\\s-+\\(\\(\\sw+\\s-*\\)+\\)\\s-*$" (quote (1 font-lock-keyword-face prepend)) (quote (2 font-lock-string-face prepend))) (list (concat "\\([@\\\\]\\(link\\|copydoc\\|xrefitem" "\\|if\\(not\\)?\\|elseif\\)\\)" "\\s-+\\([^ 	
+]+\\)") (quote (1 font-lock-keyword-face prepend)) (quote (4 font-lock-string-face prepend))) (list "\\([@\\\\]\\(cond\\|dir\\)\\(\\s-+[^ 	
+]+\\)?\\)" (quote (1 font-lock-keyword-face prepend)) (quote (3 font-lock-string-face prepend t))) (list "\\([@\\\\]\\(~\\)\\([^ 	
+]+\\)?\\)" (quote (1 font-lock-keyword-face prepend)) (quote (3 font-lock-string-face prepend t))) (list (concat "\\([@\\\\]\\(example\\|\\(dont\\)?include\\|includelineno" "\\|htmlinclude\\|verbinclude\\)\\)\\s-+" "\\(\"?[~:\\/a-zA-Z0-9_. ]+\"?\\)") (quote (1 font-lock-keyword-face prepend)) (quote (4 font-lock-string-face prepend))) (list (concat "\\([@\\\\]dotfile\\)\\s-+" "\\(\"?[~:\\/a-zA-Z0-9_. ]+\"?\\)\\(\\s-+\"[^\"]+\"\\)?") (quote (1 font-lock-keyword-face prepend)) (quote (2 font-lock-string-face prepend)) (quote (3 font-lock-string-face prepend t))) (list "\\([@\\\\]image\\)\\s-+\\(html\\|latex\\)\\s-+\\(\"?[~:\\/a-zA-Z0-9_. ]+\"?\\)\\(\\s-+\"[^\"]+\"\\)?\\(\\s-+\\sw+=[0-9]+\\sw+\\)?" (quote (1 font-lock-keyword-face prepend)) (quote (2 font-lock-string-face prepend)) (quote (3 font-lock-string-face prepend)) (quote (4 font-lock-string-face prepend t)) (quote (5 font-lock-string-face prepend t))) (list (concat "\\([@\\\\]\\(addtogroup\\|defgroup\\|weakgroup" "\\|page\\|anchor\\|ref\\|section\\|subsection" "\\)\\)\\s-+\\(\\sw+\\)") (quote (1 font-lock-keyword-face prepend)) (quote (3 font-lock-string-face prepend)))))
+                nil [20096 24445])
+            ("doxymacs-font-lock" function (:user-visible-flag t) nil [24447 24974])
+            ("doxymacs-filename-to-element" function (:arguments ("f" "a")) nil [25157 25395])
+            ("doxymacs-filename-to-xml" function (:arguments ("f")) nil [25397 25624])
+            ("doxymacs-filename-to-url" function (:arguments ("f")) nil [25626 25871])
+            ("doxymacs-filename-to-buffer" function (:arguments ("f")) nil [25873 26046])
+            ("doxymacs-filename-to-completion-list" function (:arguments ("f")) nil [26048 26247])
+            ("doxymacs-filename-to-dir" function (:arguments ("f")) nil [26249 26532])
+            ("doxymacs-set-dir-element" function (:arguments ("dir" "l" "e")) nil [26534 26777])
+            ("doxymacs-set-tags-buffer" function (:arguments ("dir" "buffer")) nil [26779 26973])
+            ("doxymacs-set-completion-list" function (:arguments ("dir" "comp-list")) nil [26975 27189])
+            ("doxymacs-url-exists-p" function (:arguments ("url")) nil [27191 28385])
+            ("doxymacs-load-tags" function (:arguments ("f")) nil [28387 29836])
+            ("doxymacs-add-to-completion-list" function (:arguments ("symbol" "desc" "url")) nil [29838 30521])
+            ("doxymacs-fill-completion-list-with-external-parser" function (:arguments ("f")) nil [30523 31824])
+            ("doxymacs-xml-progress-callback" function (:arguments ("amount-done")) nil [31828 32006])
+            ("doxymacs-fill-completion-list-with-internal-parser" function (:arguments ("f")) nil [32008 34470])
+            ("doxymacs-add-compound-members" function (:arguments ("compound" "compound-name" "compound-url")) nil [34472 35398])
+            ("doxymacs-display-url" function (:arguments ("root" "url")) nil [35400 35537])
+            ("doxymacs-symbol-near-point" function nil nil [35692 36341])
+            ("doxymacs-lookup" function
+               (:user-visible-flag t
+                :arguments ("symbol" "filename"))
+                nil [36343 37311])
+            ("doxymacs-display-completions" function (:arguments ("initial" "collection" "pred")) nil [37313 37825])
+            ("doxymacs-symbol-completion" function (:arguments ("initial" "collection" "pred")) nil [37827 38845])
+            ("doxymacs-validate-symbol-completion" function (:arguments ("initial" "collection" "pred")) nil [38847 39379])
+            ("doxymacs-description-completion" function (:arguments ("initial" "collection" "pred")) nil [39381 39816])
+            ("doxymacs-rescan-tags" function (:user-visible-flag t) nil [39871 40288])
+            ("if" code nil nil [40663 40766])
+            ("if" code nil nil [40822 40883])
+            ("doxymacs-JavaDoc-blank-multiline-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("/**" > n "* " p > n "* " > n "*/" > n)))
+                nil [40942 41118])
+            ("doxymacs-Qt-blank-multiline-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("//! " p > n "/*! " > n > n "*/" > n)))
+                nil [41120 41284])
+            ("doxymacs-C++-blank-multiline-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("///" > n "/// " p > n "///" > n)))
+                nil [41286 41448])
+            ("doxymacs-JavaDoc-blank-singleline-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("/// " > p)))
+                nil [41450 41601])
+            ("doxymacs-Qt-blank-singleline-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("//! " > p)))
+                nil [41603 41744])
+            ("doxymacs-C++-blank-singleline-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("/// " > p)))
+                nil [41746 41889])
+            ("doxymacs-doxygen-command-char" function nil nil [41891 42158])
+            ("doxymacs-user-mail-address" function nil nil [42160 42443])
+            ("doxymacs-JavaDoc-file-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("/**" > n " * " (doxymacs-doxygen-command-char) "file   " (if (buffer-file-name) (file-name-nondirectory (buffer-file-name)) "") > n " * " (doxymacs-doxygen-command-char) "author " (user-full-name) (doxymacs-user-mail-address) > n " * " (doxymacs-doxygen-command-char) "date   " (current-time-string) > n " * " > n " * " (doxymacs-doxygen-command-char) "brief  " (p "Brief description of this file: ") > n " * " > n " * " p > n " */" > n)))
+                nil [42445 43039])
+            ("doxymacs-Qt-file-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("/*!" > n " " (doxymacs-doxygen-command-char) "file   " (if (buffer-file-name) (file-name-nondirectory (buffer-file-name)) "") > n " " (doxymacs-doxygen-command-char) "author " (user-full-name) (doxymacs-user-mail-address) > n " " (doxymacs-doxygen-command-char) "date   " (current-time-string) > n " " > n " " (doxymacs-doxygen-command-char) "brief  " (p "Brief description of this file: ") > n " " > n " " p > n "*/" > n)))
+                nil [43041 43610])
+            ("doxymacs-C++-file-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ("///" > n "/// " (doxymacs-doxygen-command-char) "file   " (if (buffer-file-name) (file-name-nondirectory (buffer-file-name)) "") > n "/// " (doxymacs-doxygen-command-char) "author " (user-full-name) (doxymacs-user-mail-address) > n "/// " (doxymacs-doxygen-command-char) "date   " (current-time-string) > n "/// " > n "/// " (doxymacs-doxygen-command-char) "brief  " (p "Brief description of this file: ") > n "/// " > n "/// " p > n "///" > n)))
+                nil [43612 44205])
+            ("doxymacs-parm-tempo-element" function (:arguments ("parms")) nil [44208 45009])
+            ("doxymacs-JavaDoc-function-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ((let ((next-func (doxymacs-find-next-func))) (if next-func (list (quote l) "/** " (quote >) (quote n) " * " (quote p) (quote >) (quote n) " * " (quote >) (quote n) (doxymacs-parm-tempo-element (cdr (assoc (quote args) next-func))) (unless (string-match (regexp-quote (cdr (assoc (quote return) next-func))) doxymacs-void-types) (quote (l " * " > n " * " (doxymacs-doxygen-command-char) "return " (p "Returns: ") > n))) " */" (quote >)) (progn (error "Can't find next function declaration.") nil))))))
+                nil [45012 45630])
+            ("doxymacs-Qt-function-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ((let ((next-func (doxymacs-find-next-func))) (if next-func (list (quote l) "//! " (quote p) (quote >) (quote n) "/*! " (quote >) (quote n) " " (quote >) (quote n) (doxymacs-parm-tempo-element (cdr (assoc (quote args) next-func))) (unless (string-match (regexp-quote (cdr (assoc (quote return) next-func))) doxymacs-void-types) (quote (l " " > n "  " (doxymacs-doxygen-command-char) "return " (p "Returns: ") > n))) " */" (quote >)) (progn (error "Can't find next function declaraton.") nil))))))
+                nil [45632 46234])
+            ("doxymacs-C++-function-comment-template" variable
+               (:constant-flag t
+                :default-value (quote ((let ((next-func (doxymacs-find-next-func))) (if next-func (list (quote l) "/// " (quote p) (quote >) (quote n) "///" (quote >) (quote n) (doxymacs-parm-tempo-element (cdr (assoc (quote args) next-func))) (unless (string-match (regexp-quote (cdr (assoc (quote return) next-func))) doxymacs-void-types) (quote (l "///" > n "/// " (doxymacs-doxygen-command-char) "return " (p "Returns: ") > n))) "///" (quote >)) (progn (error "Can't find next function declaraton.") nil))))))
+                nil [46236 46830])
+            ("doxymacs-invalid-style" function nil nil [46832 47084])
+            ("doxymacs-call-template" function (:arguments ("template-name")) nil [47184 48154])
+            ("doxymacs-insert-blank-multiline-comment" function (:user-visible-flag t) nil [48156 48348])
+            ("doxymacs-insert-blank-singleline-comment" function (:user-visible-flag t) nil [48350 48541])
+            ("doxymacs-insert-file-comment" function (:user-visible-flag t) nil [48543 48717])
+            ("doxymacs-insert-function-comment" function (:user-visible-flag t) nil [48719 48914])
+            ("doxymacs-comment-indent-function" variable
+               (:constant-flag t
+                :default-value (lambda (skip) (save-excursion (beginning-of-line) (let ((eol (save-excursion (end-of-line) (point)))) (and skip (re-search-forward skip eol t) (setq eol (match-beginning 0))) (goto-char eol) (skip-chars-backward " 	") (max comment-column (1+ (current-column)))))))
+                nil [49051 49556])
+            ("doxymacs-insert-member-comment" function (:user-visible-flag t) nil [49558 51991])
+            ("doxymacs-insert-grouping-comments" function
+               (:user-visible-flag t
+                :arguments ("start" "end"))
+                nil [51993 52871])
+            ("doxymacs-extract-args-list" function (:arguments ("args-string")) nil [53057 53802])
+            ("doxymacs-save-split" function (:arguments ("args-string")) nil [53805 55940])
+            ("doxymacs-extract-args-list-helper" function (:arguments ("args-list")) nil [56071 57472])
+            ("doxymacs-core-string" function (:arguments ("s")) nil [57474 57743])
+            ("doxymacs-find-next-func" function (:user-visible-flag t) nil [57745 59689]))          
+    :file "doxymacs.el"
+    :pointmax 59715
+    :fsize 59714
+    :lastmodtime '(18027 64048)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "xml-parse.el"
+    :file "xml-parse.el"
+    :fsize 11798
+    :lastmodtime '(17482 54894)
+    )
+   )
+  :file "!drive_d!Program_winGreenTool!emacs-24.1!site-lisp!doxymacs-1.8.0!no-autoconf!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )
