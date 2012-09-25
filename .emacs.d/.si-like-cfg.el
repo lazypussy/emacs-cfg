@@ -9,6 +9,9 @@
 (load "desktop") 
 (desktop-load-default) 
 (desktop-read)
+(desktop-save-mode 1);自动保存
+;;help;; M-x desktop-save 
+;也可以用 M-x desktop-change-dir 保存当前桌面， 然后加载另外一个目录下的桌面文件。 M-x desktop-revert 可以推回到先前加 载的那个桌面。可以在 Emacs 启动的时候使用 --no-desktop 选项禁止加载桌面。
 
 ;;;; session+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 (add-to-list 'load-path "~/sl-emacs/session")
@@ -78,7 +81,7 @@
 (require 'ecb) ;;加载ecb
 
 ;;; 自动启动ecb，并且不显示每日提示
-(setq ecb-auto-activate t
+(setq ;ecb-auto-activate t
       ecb-tip-of-the-day nil)
 ;;; 各窗口间切换
 (global-set-key [M-left] 'windmove-left)

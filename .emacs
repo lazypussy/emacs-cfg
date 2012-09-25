@@ -11,8 +11,8 @@
     (load "~/.emacs.d/.emacs-key-cfg.el"))
 
 ;;;sbcl & slime
-;(if (file-exists-p "~/.emacs.d/.sbcl-slime-cfg.el")
-;    (load "~/.emacs.d/.sbcl-slime-cfg.el"))
+(if (file-exists-p "~/.emacs.d/.sbcl-slime-cfg.el")
+    (load "~/.emacs.d/.sbcl-slime-cfg.el"))
 
 ;;; make emacs like Source Insight
 (if (file-exists-p "~/.emacs.d/.si-like-cfg.el")

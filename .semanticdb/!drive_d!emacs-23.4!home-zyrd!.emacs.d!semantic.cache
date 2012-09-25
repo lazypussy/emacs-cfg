@@ -13,53 +13,118 @@
             ("load" code nil nil [328 344])
             ("desktop-load-default" code nil nil [346 368])
             ("desktop-read" code nil nil [370 384])
-            ("add-to-list" code nil nil [466 511])
-            ("session" include nil nil [512 530])
-            ("add-hook" code nil nil [543 590])
-            ("add-to-list" code nil nil [750 804])
-            ("cedet" include nil nil [805 821])
-            ("semantic-load-enable-excessive-code-helpers" code nil nil [1050 1095])
-            ("global-semantic-tag-folding-mode" code nil nil [1195 1231])
-            ("my-cedet-hook" function nil nil [1249 1548])
-            ("add-hook" code nil nil [1549 1594])
-            ("my-c-mode-cedet-hook" function nil nil [1629 1766])
-            ("add-hook" code nil nil [1767 1819])
-            ("my-indent-or-complete" function nil nil [1830 1972])
-            ("global-set-key" code nil nil [1975 2030])
-            ("senator-try-expand-semantic" function (:prototype-flag t) nil [2033 2082])
-            ("setq" code nil nil [2083 2625])
-            ("add-to-list" code nil nil [2707 2753])
-            ("ecb" include nil nil [2754 2768])
-            ("setq" code nil nil [2800 2855])
-            ("global-set-key" code nil nil [2867 2907])
-            ("global-set-key" code nil nil [2908 2950])
-            ("global-set-key" code nil nil [2951 2987])
-            ("global-set-key" code nil nil [2988 3028])
-            ("define-key" code nil nil [3044 3104])
-            ("define-key" code nil nil [3105 3165])
-            ("define-key" code nil nil [3182 3246])
-            ("define-key" code nil nil [3247 3307])
-            ("define-key" code nil nil [3308 3368])
-            ("define-key" code nil nil [3369 3429])
-            ("define-key" code nil nil [3443 3508])
-            ("add-hook" code nil nil [3691 3752])
-            ("define-key" code nil nil [3761 3830])
-            ("define-key" code nil nil [3831 3902])
-            ("define-key" code nil nil [3903 3967])
-            ("define-key" code nil nil [3968 4038])
-            ("define-key" code nil nil [4039 4122])
-            ("define-key" code nil nil [4123 4179])
-            ("define-key" code nil nil [4180 4239])
-            ("define-key" code nil nil [4240 4297])
-            ("define-key" code nil nil [4298 4357])
-            ("define-key" code nil nil [4358 4415])
-            ("define-key" code nil nil [4416 4478])
-            ("define-key" code nil nil [4479 4548])
-            ("setq" code nil nil [4573 4611]))          
+            ("desktop-save-mode" code nil nil [385 406])
+            ("add-to-list" code nil nil [651 696])
+            ("session" include nil nil [697 715])
+            ("add-hook" code nil nil [728 775])
+            ("add-to-list" code nil nil [935 989])
+            ("cedet" include nil nil [990 1006])
+            ("semantic-load-enable-excessive-code-helpers" code nil nil [1235 1280])
+            ("global-semantic-tag-folding-mode" code nil nil [1380 1416])
+            ("my-cedet-hook" function nil nil [1434 1733])
+            ("add-hook" code nil nil [1734 1779])
+            ("my-c-mode-cedet-hook" function nil nil [1814 1951])
+            ("add-hook" code nil nil [1952 2004])
+            ("my-indent-or-complete" function nil nil [2015 2157])
+            ("global-set-key" code nil nil [2160 2215])
+            ("senator-try-expand-semantic" function (:prototype-flag t) nil [2218 2267])
+            ("setq" code nil nil [2268 2810])
+            ("add-to-list" code nil nil [2892 2938])
+            ("ecb" include nil nil [2939 2953])
+            ("setq" code nil nil [2985 3041])
+            ("global-set-key" code nil nil [3053 3093])
+            ("global-set-key" code nil nil [3094 3136])
+            ("global-set-key" code nil nil [3137 3173])
+            ("global-set-key" code nil nil [3174 3214])
+            ("define-key" code nil nil [3230 3290])
+            ("define-key" code nil nil [3291 3351])
+            ("define-key" code nil nil [3368 3432])
+            ("define-key" code nil nil [3433 3493])
+            ("define-key" code nil nil [3494 3554])
+            ("define-key" code nil nil [3555 3615])
+            ("define-key" code nil nil [3629 3694])
+            ("add-hook" code nil nil [3877 3938])
+            ("define-key" code nil nil [3947 4016])
+            ("define-key" code nil nil [4017 4088])
+            ("define-key" code nil nil [4089 4153])
+            ("define-key" code nil nil [4154 4224])
+            ("define-key" code nil nil [4225 4308])
+            ("define-key" code nil nil [4309 4365])
+            ("define-key" code nil nil [4366 4425])
+            ("define-key" code nil nil [4426 4483])
+            ("define-key" code nil nil [4484 4543])
+            ("define-key" code nil nil [4544 4601])
+            ("define-key" code nil nil [4602 4664])
+            ("define-key" code nil nil [4665 4734])
+            ("setq" code nil nil [4759 4797]))          
     :file ".si-like-cfg.el"
-    :pointmax 4613
-    :fsize 4878
-    :lastmodtime '(20562 60127)
+    :pointmax 4799
+    :fsize 5133
+    :lastmodtime '(20572 3165)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table ".sbcl-slime-cfg.el"
+    :major-mode 'emacs-lisp-mode
+    :tags 
+        '( ("add-to-list" code nil nil [1 98])
+            ("add-to-list" code nil nil [101 137])
+            ("setq" code nil nil [140 175])
+            ("slime-autoloads" include nil nil [178 204])
+            ("slime-setup" code nil nil [206 234])
+            ("put" code nil nil [236 273])
+            ("load" code nil nil [301 409]))          
+    :file ".sbcl-slime-cfg.el"
+    :pointmax 502
+    :fsize 513
+    :lastmodtime '(20560 17111)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table ".emacs-key-cfg.el"
+    :major-mode 'emacs-lisp-mode
+    :tags 
+        '( ("global-set-key" code nil nil [40 82])
+            ("global-set-key" code nil nil [98 151])
+            ("global-set-key" code nil nil [152 205])
+            ("global-set-key" code nil nil [207 250])
+            ("global-set-key" code nil nil [251 291])
+            ("global-set-key" code nil nil [292 332])
+            ("global-set-key" code nil nil [374 417])
+            ("global-set-key" code nil nil [426 471])
+            ("global-set-key" code nil nil [510 564])
+            ("global-set-key" code nil nil [565 617])
+            ("window-move-up" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [696 841])
+            ("window-move-down" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [843 996])
+            ("other-window-move-up" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [998 1124])
+            ("other-window-move-down" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [1126 1309]))          
+    :file ".emacs-key-cfg.el"
+    :pointmax 1310
+    :fsize 1418
+    :lastmodtime '(20560 25352)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table ".el-get-cfg.el"
+    :major-mode 'emacs-lisp-mode
+    :tags 
+        '( ("add-to-list" code nil nil [1 52])
+            ("setq" code nil nil [54 122])
+            ("unless" code nil nil [124 314])
+            ("el-get" code nil nil [316 330]))          
+    :file ".el-get-cfg.el"
+    :pointmax 331
+    :fsize 342
+    :lastmodtime '(20560 17063)
     :unmatched-syntax 'nil
     )
    )

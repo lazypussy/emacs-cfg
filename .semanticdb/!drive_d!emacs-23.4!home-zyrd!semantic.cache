@@ -4,11 +4,18 @@
   :tables (list 
    (semanticdb-table ".emacs"
     :major-mode 'emacs-lisp-mode
-    :tags nil
+    :tags 
+        '( ("display-time" code nil nil [18 32])
+            ("setq" code nil nil [38 84])
+            ("if" code nil nil [109 202])
+            ("if" code nil nil [220 315])
+            ("if" code nil nil [352 441])
+            ("custom-set-variables" code nil nil [545 962])
+            ("custom-set-faces" code nil nil [963 1206]))          
     :file ".emacs"
-    :pointmax 1141
+    :pointmax 1207
     :fsize 1246
-    :lastmodtime '(20562 60884)
+    :lastmodtime '(20576 2369)
     :unmatched-syntax 'nil
     )
    )
