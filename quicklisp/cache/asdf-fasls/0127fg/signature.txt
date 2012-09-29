@@ -1,0 +1,4 @@
+lisp-implementation-type: SBCL
+lisp-implementation-version: 1.0.55.7.mswinmt.1185-d20ec0c
+machine-type: X86
+machine-version: NIL
