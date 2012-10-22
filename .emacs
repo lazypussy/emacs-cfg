@@ -38,3 +38,11 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
+
+;;RST
+(require 'rst)
+(add-hook 'text-mode-hook 'rst-text-mode-bindings)
+ 
+(setq auto-mode-alist
+(append '(("//.rst$" . rst-mode)
+("//.rest$" . rst-mode)) auto-mode-alist))

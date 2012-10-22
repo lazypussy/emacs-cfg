@@ -44,23 +44,11 @@
             ("define-key" code nil nil [3555 3615])
             ("define-key" code nil nil [3629 3694])
             ("add-hook" code nil nil [3877 3938])
-            ("define-key" code nil nil [3947 4016])
-            ("define-key" code nil nil [4017 4088])
-            ("define-key" code nil nil [4089 4153])
-            ("define-key" code nil nil [4154 4224])
-            ("define-key" code nil nil [4225 4308])
-            ("define-key" code nil nil [4309 4365])
-            ("define-key" code nil nil [4366 4425])
-            ("define-key" code nil nil [4426 4483])
-            ("define-key" code nil nil [4484 4543])
-            ("define-key" code nil nil [4544 4601])
-            ("define-key" code nil nil [4602 4664])
-            ("define-key" code nil nil [4665 4734])
-            ("setq" code nil nil [4759 4797]))          
+            ("setq" code nil nil [4771 4809]))          
     :file ".si-like-cfg.el"
-    :pointmax 4799
-    :fsize 5133
-    :lastmodtime '(20572 3165)
+    :pointmax 4811
+    :fsize 5145
+    :lastmodtime '(20599 44942)
     :unmatched-syntax 'nil
     )
    (semanticdb-table ".sbcl-slime-cfg.el"

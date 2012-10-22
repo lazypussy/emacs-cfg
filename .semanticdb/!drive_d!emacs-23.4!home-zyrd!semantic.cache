@@ -11,11 +11,14 @@
             ("if" code nil nil [220 315])
             ("if" code nil nil [352 441])
             ("custom-set-variables" code nil nil [545 962])
-            ("custom-set-faces" code nil nil [963 1206]))          
+            ("custom-set-faces" code nil nil [963 1206])
+            ("rst" include nil nil [1214 1228])
+            ("add-hook" code nil nil [1229 1279])
+            ("setq" code nil nil [1282 1379]))          
     :file ".emacs"
-    :pointmax 1207
-    :fsize 1246
-    :lastmodtime '(20576 2369)
+    :pointmax 1380
+    :fsize 1427
+    :lastmodtime '(20613 257)
     :unmatched-syntax 'nil
     )
    )
