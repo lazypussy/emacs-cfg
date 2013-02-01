@@ -44,10 +44,10 @@
  )
 
 ;;RST
-(require 'rst)
-(add-hook 'text-mode-hook 'rst-text-mode-bindings)
+;(require 'rst)
+;(add-hook 'text-mode-hook 'rst-text-mode-bindings)
  
-(setq auto-mode-alist
-(append '(("//.rst$" . rst-mode)
-("//.rest$" . rst-mode)) auto-mode-alist))
+;(setq auto-mode-alist
+;(append '(("\\.rst$" . rst-mode)
+;("\\.rest$" . rst-mode)) auto-mode-alist))
 

@@ -6,19 +6,23 @@
     :major-mode 'emacs-lisp-mode
     :tags 
         '( ("display-time" code nil nil [18 32])
-            ("setq" code nil nil [38 84])
-            ("if" code nil nil [109 202])
-            ("if" code nil nil [220 315])
-            ("if" code nil nil [352 441])
-            ("custom-set-variables" code nil nil [545 962])
-            ("custom-set-faces" code nil nil [963 1206])
-            ("rst" include nil nil [1214 1228])
-            ("add-hook" code nil nil [1229 1279])
-            ("setq" code nil nil [1282 1379]))          
+            ("setq" code nil nil [47 73])
+            ("setq-default" code nil nil [74 109])
+            ("setq" code nil nil [115 161])
+            ("if" code nil nil [186 279])
+            ("if" code nil nil [297 392])
+            ("if" code nil nil [429 518])
+            ("custom-set-variables" code nil nil [622 1039])
+            ("custom-set-faces" code nil nil [1040 1283])
+            ("rst" include nil nil [1291 1305])
+            ("add-hook" code nil nil [1306 1356])
+            ("setq" code nil nil [1359 1456])
+            ("setq" code nil nil [1381 1381])
+            ("setq-default" code nil nil [1381 1381]))          
     :file ".emacs"
-    :pointmax 1380
-    :fsize 1427
-    :lastmodtime '(20613 257)
+    :pointmax 1458
+    :fsize 1506
+    :lastmodtime '(20615 44807)
     :unmatched-syntax 'nil
     )
    )
