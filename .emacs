@@ -26,6 +26,9 @@
 ;(if (file-exists-p "~/.emacs.d/.el-get-cfg.el")
 ;    (load "~/.emacs.d/.el-get-cfg.el"))
 
+;;;erlang environment config
+(if (file-exists-p "~/.emacs.d/.erl5.10.el")
+    (load "~/.emacs.d/.erl5.10.el"))
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
